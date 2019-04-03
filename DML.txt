@@ -1,0 +1,107 @@
+insert into user values('pushkal@goyal.com','1234','Developer');
+insert into user values('himanshu@kaushik.com','123','BusinessPerson');
+insert into user values('nitin@jadon.com','12','Manager');
+
+insert into admindetail values(1,'Pushkal','pushkal.goyal@capgemini.com','9876543210');
+insert into admindetail values(2,'Goyal','pushkalgoyal@capgemini.com','1234567890');
+insert into admindetail values(3,'Batch1','Batch1@capgemini.com','6543217890');
+
+insert into customerdetail(CUSTOMERNAME,EMAIL,MOBILENO,ADDRESS,PINCODE) values('Rahul','rahul@varshney.com','9876543210','Pune','412114');
+insert into customerdetail(CUSTOMERNAME,EMAIL,MOBILENO,ADDRESS,PINCODE) values('Devansh','devansh@varshney.com','12345678','Mathura','412114');
+insert into customerdetail(CUSTOMERNAME,EMAIL,MOBILENO,ADDRESS,PINCODE) values('Pushkal','pushkal@goyal.com','5432167890','Talwade','412114');
+insert into customerdetail(CUSTOMERNAME,EMAIL,MOBILENO,ADDRESS,PINCODE) values('Nitin','nitin@jadon.com','94827406','Mathura','412114');
+insert into customerdetail(CUSTOMERNAME,EMAIL,MOBILENO,ADDRESS,PINCODE) values('Brajesh','brajesh@mishra.com','84930375002','Talwade','412114');
+
+
+insert into merchantdetail(MERCHANTNAME,EMAIL,ADDRESS,STORENAME,MOBILENO) values('Nitin','nitin@jadon.com','Mathura','KamChlau','9876543210');
+insert into merchantdetail(MERCHANTNAME,EMAIL,ADDRESS,STORENAME,MOBILENO) values('Abhishek','abhishek@ghode.com','Pune','AssertStore','12345678');
+insert into merchantdetail(MERCHANTNAME,EMAIL,ADDRESS,STORENAME,MOBILENO) values('Himanshu','himanshu@kaushik.com','Mathura','GroceryStore','5432167890');
+insert into merchantdetail(MERCHANTNAME,EMAIL,ADDRESS,STORENAME,MOBILENO) values('Simran','simran@kaushik.com','Punjab','SardarShop','94827406');
+insert into merchantdetail(MERCHANTNAME,EMAIL,ADDRESS,STORENAME,MOBILENO) values('Harshal','harshal@srivastava.com','Mathura','WelcomeShop','84930375002');
+
+
+insert into merchantfeedback(MERCHANTID,MERCHANTFEEDBACK) values(1,"Great Product");
+insert into merchantfeedback(MERCHANTID,MERCHANTFEEDBACK) values(7,"Good Product");
+insert into merchantfeedback(MERCHANTID,MERCHANTFEEDBACK) values(8,"Not satisfied with the Product");
+insert into merchantfeedback(MERCHANTID,MERCHANTFEEDBACK) values(10,"Good Nice");
+insert into merchantfeedback(MERCHANTID,MERCHANTFEEDBACK) values(9,"Great Product");
+
+
+insert into productdetail(PRODUCTNAME,PRODUCTPRICE,PRODUCTQUANTITY,DISCOUNTOFFERED,PRODUCTCATEGORY,PRODUCTTYPE,PRODUCTBRAND,PRODUCTMODEL,PRODUCTFEATURES) values('Reebok Shoes',20000,100,10,'Sports','Reebok','rEEBOK','2012','Great to go');
+insert into productdetail(PRODUCTNAME,PRODUCTPRICE,PRODUCTQUANTITY,DISCOUNTOFFERED,PRODUCTCATEGORY,PRODUCTTYPE,PRODUCTBRAND,PRODUCTMODEL,PRODUCTFEATURES) values('Reebok Shoes',20000,100,10,'Sports','Reebok','rEEBOK','2012','Great to go');
+insert into productdetail(PRODUCTNAME,PRODUCTPRICE,PRODUCTQUANTITY,DISCOUNTOFFERED,PRODUCTCATEGORY,PRODUCTTYPE,PRODUCTBRAND,PRODUCTMODEL,PRODUCTFEATURES) values('Reebok Shoes',20000,100,10,'Sports','Reebok','rEEBOK','2012','Great to go');
+insert into productdetail(PRODUCTNAME,PRODUCTPRICE,PRODUCTQUANTITY,DISCOUNTOFFERED,PRODUCTCATEGORY,PRODUCTTYPE,PRODUCTBRAND,PRODUCTMODEL,PRODUCTFEATURES) values('Reebok Shoes',20000,100,10,'Sports','Reebok','rEEBOK','2012','Great to go');
+insert into productdetail(PRODUCTNAME,PRODUCTPRICE,PRODUCTQUANTITY,DISCOUNTOFFERED,PRODUCTCATEGORY,PRODUCTTYPE,PRODUCTBRAND,PRODUCTMODEL,PRODUCTFEATURES) values('Reebok Shoes',20000,100,10,'Sports','Reebok','rEEBOK','2012','Great to go');
+
+
+insert into productfeedback(PRODUCTID,PRODUCTFEEDBACK) values(300000,"Good");
+insert into productfeedback(PRODUCTID,PRODUCTFEEDBACK) values(300001,"Good");
+insert into productfeedback(PRODUCTID,PRODUCTFEEDBACK) values(300002,"Good");
+insert into productfeedback(PRODUCTID,PRODUCTFEEDBACK) values(300002,"Good");
+insert into productfeedback(PRODUCTID,PRODUCTFEEDBACK) values(300003,"Good");
+
+insert into dummyorder values(100);
+insert into dummyorder values(1001);
+insert into dummyorder values(1002);
+insert into dummyorder values(1003);
+
+insert into wishlist(CUSTOMERID,PRODUCTID,MERCHANTID,PRODUCTPRICE) values(1,300004,1,100);
+insert into wishlist(CUSTOMERID,PRODUCTID,MERCHANTID,PRODUCTPRICE) values(1,300004,1,100);
+insert into wishlist(CUSTOMERID,PRODUCTID,MERCHANTID,PRODUCTPRICE) values(1,300004,1,100);
+insert into wishlist(CUSTOMERID,PRODUCTID,MERCHANTID,PRODUCTPRICE) values(1,300004,1,100);
+insert into wishlist(CUSTOMERID,PRODUCTID,MERCHANTID,PRODUCTPRICE) values(1,300004,1,100);
+
+
+insert into orderdetail values(100,'02/02/2014',1,1,300002,10,100,90);
+insert into orderdetail values(100,'02/02/2014',1,1,300002,10,100,90);
+insert into orderdetail values(100,'02/02/2014',1,1,300002,10,100,90);
+insert into orderdetail values(100,'02/02/2014',1,1,300002,10,100,90);
+insert into orderdetail values(100,'02/02/2014',1,1,300002,10,100,90);
+insert into orderdetail values(100,'02/02/2014',1,1,300002,10,100,90);
+
+
+
+insert into promo values("HBSC",20,'12/12/2019','I');
+insert into promo values("CAPG",20,'12/12/2019','I');
+insert into promo values("HCL",20,'12/12/2019','I');
+insert into promo values("GOOGLE",20,'12/12/2019','I');
+insert into promo values("POKI",20,'12/12/2019','I');
+insert into promo values("ASUS",20,'12/12/2019','I');
+
+
+INSERT INTO CART values(1,300004,7,10,1000,'HBSC','A');
+INSERT INTO CART values(1,300004,7,10,1000,'HBSC','A');
+INSERT INTO CART values(1,300004,7,10,1000,'HBSC','A');
+INSERT INTO CART values(1,300004,7,10,1000,'HBSC','A');
+INSERT INTO CART values(1,300004,7,10,1000,'HCL','A');
+INSERT INTO CART values(1,300004,7,10,1000,'HBSC','A');
+INSERT INTO CART values(1,300004,7,10,1000,'HBSC','A');
+
+
+
+INSERT INTO OFFER(MERCHANTID,OFFERDESCRIPTION,PRODUCTID,OFFERSTARTDATE,OFFERENDDATE,DISCOUNTOFFERED,SOFTDELETE) values(9,'sOMETHING eLSE',300002,'02/12/2012','01/04/2018',20,'A');
+INSERT INTO OFFER(MERCHANTID,OFFERDESCRIPTION,PRODUCTID,OFFERSTARTDATE,OFFERENDDATE,DISCOUNTOFFERED,SOFTDELETE) values(9,'sOMETHING eLSE',300002,'02/12/2012','01/04/2018',20,'A');
+INSERT INTO OFFER(MERCHANTID,OFFERDESCRIPTION,PRODUCTID,OFFERSTARTDATE,OFFERENDDATE,DISCOUNTOFFERED,SOFTDELETE) values(9,'sOMETHING eLSE',300002,'02/12/2012','01/04/2018',20,'A');
+INSERT INTO OFFER(MERCHANTID,OFFERDESCRIPTION,PRODUCTID,OFFERSTARTDATE,OFFERENDDATE,DISCOUNTOFFERED,SOFTDELETE) values(9,'sOMETHING eLSE',300002,'02/12/2012','01/04/2018',20,'A');
+INSERT INTO OFFER(MERCHANTID,OFFERDESCRIPTION,PRODUCTID,OFFERSTARTDATE,OFFERENDDATE,DISCOUNTOFFERED,SOFTDELETE) values(9,'sOMETHING eLSE',300002,'02/12/2012','01/04/2018',20,'A');
+INSERT INTO OFFER(MERCHANTID,OFFERDESCRIPTION,PRODUCTID,OFFERSTARTDATE,OFFERENDDATE,DISCOUNTOFFERED,SOFTDELETE) values(9,'sOMETHING eLSE',300002,'02/12/2012','01/04/2018',20,'A');
+INSERT INTO OFFER(MERCHANTID,OFFERDESCRIPTION,PRODUCTID,OFFERSTARTDATE,OFFERENDDATE,DISCOUNTOFFERED,SOFTDELETE) values(9,'sOMETHING eLSE',300002,'02/12/2012','01/04/2018',20,'A');
+INSERT INTO OFFER(MERCHANTID,OFFERDESCRIPTION,PRODUCTID,OFFERSTARTDATE,OFFERENDDATE,DISCOUNTOFFERED,SOFTDELETE) values(9,'sOMETHING eLSE',300002,'02/12/2012','01/04/2018',20,'A');
+
+
+
+INSERT INTO RETURNREQUEST values(1,300002,100,90,'APPLIED');
+INSERT INTO RETURNREQUEST values(1,300002,100,90,'APPLIED');
+INSERT INTO RETURNREQUEST values(1,300002,100,90,'APPLIED');
+INSERT INTO RETURNREQUEST values(1,300002,100,90,'APPLIED');
+INSERT INTO RETURNREQUEST values(1,300002,100,90,'APPLIED');
+INSERT INTO RETURNREQUEST values(1,300002,100,90,'APPLIED');
+
+
+INSERT INTO MERCHANTPRODUCT values(1,300002);
+INSERT INTO MERCHANTPRODUCT values(1,300002);
+INSERT INTO MERCHANTPRODUCT values(1,300002);
+INSERT INTO MERCHANTPRODUCT values(1,300002);
+INSERT INTO MERCHANTPRODUCT values(1,300002);
+INSERT INTO MERCHANTPRODUCT values(1,300002);
+INSERT INTO MERCHANTPRODUCT values(1,300002);
